@@ -1,75 +1,45 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
 
-# Project Name
+Example
 
-> Description the project.
+The minimum sum is  and the maximum sum is . The function prints
 
+16 24
+Function Description
 
-## Built With
+Complete the miniMaxSum function in the editor below.
 
-- Major languages
-- Frameworks
-- Technologies used
+miniMaxSum has the following parameter(s):
 
-## Live Demo (if available)
+arr: an array of  integers
+Print
 
-[Live Demo Link](https://livedemo.com)
+Print two space-separated integers on one line: the minimum sum and the maximum sum of  of  elements.
 
+Input Format
 
-## Getting Started
+A single line of five space-separated integers.
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+Constraints
 
 
+Output Format
 
-## Authors
+Print two space-separated long integers denoting the respective minimum and maximum values that can be calculated by summing exactly four of the five integers. (The output can be greater than a 32 bit integer.)
 
-👤 **Author1**
+Sample Input
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+1 2 3 4 5
+Sample Output
 
-👤 **Author2**
+10 14
+Explanation
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+The numbers are , , , , and . Calculate the following sums using four of the five integers:
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+Sum everything except , the sum is .
+Sum everything except , the sum is .
+Sum everything except , the sum is .
+Sum everything except , the sum is .
+Sum everything except , the sum is .
+Hints: Beware of integer overflow! Use 64-bit Integer.
